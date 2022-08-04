@@ -30,7 +30,8 @@ a {
 }
 
 .logo img {
-    max-width: 450px;
+    max-width: 440px;
+    margin-top: 10px;
 }
 
 .logo a {
@@ -92,13 +93,13 @@ a {
     border-top: 0px none;
 }
 
-.languaje{
+.languaje {
 	display: inline-block;
 	position: absolute;
 	left: 0px;
 }
 
-.flag{
+.flag {
 	width: 30px;
 }
 
@@ -116,7 +117,7 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.charam{
+.charam {
 	border-style: solid;
     border-width: 2px;
     -moz-border-image: url(../img/border_2_menu-action-platformer-openbor-indie-game.png) 1;
@@ -130,24 +131,24 @@ a {
 .tabs nav ul li {
     display: inline-block;
 }
-.col-desc, .info-characters{
+.col-desc, .info-characters {
 	width: 550px;
 	float: left;
 }
-.secondary{
+.secondary {
     width: 425px;
 	float: left;
 }
-.secondary .col-desc{
+.secondary .col-desc {
     width: 425px;
 	float: left;
 }
-.text-characters{
+.text-characters {
 	width: 100px;
     position: absolute;
     right: 0px;
 }
-.charas{
+.charas {
 	border-style: solid;
     border-width: 2px;
     -moz-border-image: url(../img/border_2_menu-action-platformer-openbor-indie-game.png) 1;
@@ -158,28 +159,28 @@ a {
 	height:26px;
 	display:inline-block;
 }
-.psheeba{
+.psheeba {
 	background:url(../img/psheeba-faulkner-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pfran{
+.pfran {
 	background:url(../img/pfran-bloodrose-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pethan{
+.pethan {
 	background:url(../img/pethan-graymont-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pbertha{
+.pbertha {
 	background:url(../img/pbertha-graymont-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pteobaldo{
+.pteobaldo {
 	background:url(../img/pteobaldo-mondragon-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pxavier{
+.pxavier {
 	background:url(../img/pxavier-bogdan-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pficzko{
+.pficzko {
 	background:url(../img/pficzko-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
-.pdarvulia{
+.pdarvulia {
 	background:url(../img/pdarvulia-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
 .pelizabeth{
@@ -657,7 +658,6 @@ footer p {
 .background-popup{
 	color: white;
 }
-
 .background-popup h4 {
     margin-top: 0px;
     font-size: 1.5em;
@@ -683,14 +683,12 @@ footer p {
 .btn-download-2:hover {
     background: #ca9800;
 }
-
 .btn-download-3 {
     background: #885800;
 }
 .btn-download-3:hover {
     background: #703800;
 }
-
 .texto-nota a {
 	font-weight: 700;
 }
@@ -816,7 +814,7 @@ footer p {
 
 @media only screen and (max-width:668px){
 	.fancybox-outer, .fancybox-inner {
-	    width: 480px !important;
+	    width: auto !important;
 	}
 	/*.fancybox-type-iframe.fancybox-opened .fancybox-skin {
     	width: 480px !important;
@@ -923,9 +921,9 @@ footer p {
 
 @media only screen and (max-width:480px){
 	.fancybox-outer, .fancybox-inner {
-	    height: 240px !important;
+	    height: auto !important;
 	}
 	.fancybox-type-iframe.fancybox-opened .fancybox-skin {
-    	height: 240px !important;
+    	height: auto !important;
     }
 }

@@ -81,10 +81,10 @@ if (isset($_REQUEST['cod_idioma'])) {
 <!-- estilo -->
 <link href="css/style.css" type="text/css" rel="stylesheet" />
 <style type="text/css">
-.fancybox-item.fancybox-close{
+.fancybox-item.fancybox-close {
 	display: none;
 }
-.fancybox-type-iframe.fancybox-opened .fancybox-skin, .fancybox-type-inline.fancybox-opened .fancybox-skin {
+.fancybox-type-iframe.fancybox-opened .fancybox-skin, .fancybox-type-inline.fancybox-opened .fancybox-skin, .fancybox-type-image.fancybox-opened .fancybox-skin {
     border: 8px solid;
 	border-image-source: url("img/border-action-platformer-openbor-indie-game.png");
 	-moz-border-image: url("img/border-action-platformer-openbor-indie-game.png");
