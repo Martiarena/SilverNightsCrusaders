@@ -46,6 +46,8 @@
 	<div class="novedades">
 		<div class="scrollbar" id="style-2">
 			<ul>
+			<li><strong><?php if($cod_idioma==1){ echo "Oct 5, 2022"; }else{ echo "5 de Octubre, 2022"; }; ?></strong><br />
+					<?php if($cod_idioma==1){ echo "1.5 version released! Minor bugs solved! :D."; }else{ echo "Versi&oacute;n 1.5 Publicada! Bug menores resueltos :D."; }; ?></li>
 				<li><strong><?php if($cod_idioma==1){ echo "May 1, 2021"; }else{ echo "1 de Mayo, 2021"; }; ?></strong><br />
 					<?php if($cod_idioma==1){ echo "1.3 version released! (with spanish dub) Enjoy! :D."; }else{ echo "Versi&oacute;n 1.3 Publicada! (con Doblaje). Disfrutenla :D."; }; ?></li>
 				<li><strong><?php if($cod_idioma==1){ echo "Apr 25, 2021"; }else{ echo "25 de abril, 2021"; }; ?></strong><br />
@@ -72,7 +74,7 @@
 			</ul>
 		</div>
 	</div>
-	<center>
-		<h3 class="titulo-novedad"><?php if($cod_idioma==1){ echo "News";}else{ echo "Novedades";}; ?></h3>
-	</center>
+	<div class="titulo-novedad">
+		<h3><?php if($cod_idioma==1){ echo "News";}else{ echo "Novedades";}; ?></h3>
+	</div>
 </div>

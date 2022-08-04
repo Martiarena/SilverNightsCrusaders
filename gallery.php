@@ -10,15 +10,15 @@
 		<div class="back_mountains">
 			<div class="castle">
 				<div class="sheeba">
-					<div>
-						<header class="logo">
-							<div id="contenedor">
+					<div class="body-web">
+						<div id="contenedor">
+							<header class="logo">
 								<div class="languaje hide-responsive">
 									<a href="gallery.php"><img class="flag" src="img/spain-action-platformer-openbor-indie-game.png" alt="Idioma en Espa&ntilde;ol"></a> <a href="gallery.php?cod_idioma=1"><img class="flag" src="img/english-action-platformer-openbor-indie-game.png" alt="English Languaje"></a>
 								</div>
 								<?php include("includes/header.php"); ?>
-							</div>
-						</header>
+							</header>
+						</div>
 						<div id="contenedor">
 							<?php $menu = "gallery"; include("includes/menu.php"); ?>
 							<section class="interior">

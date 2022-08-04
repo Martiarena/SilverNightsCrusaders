@@ -1,11 +1,8 @@
-<div class="cl"></div>
-<div class="sheeba-responsive"></div>
-<div class="cl"></div>
+<div class="cl">
+	<div class="sheeba-responsive"></div>
+</div>
 <footer>
-	<center>
-		<p>
-		&copy; True Role Dreams 2020. <?php if($cod_idioma==1){ echo "Some rights reserved";}else{ echo "Algunos derechos reservados";}; ?> x.x. | <a href="#"><?php if($cod_idioma==1){ echo "Credits & Resources";}else{ echo "Créditos y recursos";}; ?></a></p>
-	</center>
+	<p>&copy; True Role Dreams 2020. <?php if($cod_idioma==1){ echo "Some rights reserved";}else{ echo "Algunos derechos reservados";}; ?> x.x. | <a href="#"><?php if($cod_idioma==1){ echo "Credits & Resources";}else{ echo "Créditos y recursos";}; ?></a></p>
 </footer>
 <script>
 	function openNav() {

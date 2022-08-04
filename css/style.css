@@ -22,19 +22,26 @@ a {
 	text-decoration: none;
 }
 
-.logo{
-	text-align: center;
-	position: relative;
+.logo {
+    text-align: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
 }
 
-.logo img{
-	margin-top: 10px;
+.logo img {
+    max-width: 450px;
+}
+
+.logo a {
+    display: inline-block;
 }
 
 #contenedor{
 	width:960px;
 	position: relative;
-	margin: auto;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .back_mountains{
@@ -65,7 +72,7 @@ a {
 .aside{
 	float: left;
     width: 324px;
-    margin-top: 20px;
+    margin-top: 0.5rem;
 }
 
 .novedades {
@@ -395,7 +402,7 @@ a {
 	float: right;
 	width: 636px;
 	height: 100%;
-    margin-top: 20px;
+    margin-top: 0.5rem;
 }
 
 .interior {
@@ -403,7 +410,7 @@ a {
     float: right;
     width: 636px;
     height: 100%;
-    margin-top: 20px;
+    margin-top: 0.5rem;
     box-sizing: content-box;
 }
 
@@ -443,6 +450,13 @@ a {
 }
 
 .titulo-novedad {
+	position: relative;
+	display: flex;
+	justify-content: center;
+	height: 0px;
+}
+
+.titulo-novedad h3 {
     background: #686843;
     margin-top: 0px;
     border: outset 2px #8d8d68;
@@ -458,6 +472,14 @@ a {
     display: inline-block;
     margin-bottom: 0px;
     color:#fff;
+	height: 18px;
+}
+
+.body-web {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
 }
 
 .scrollbar{
@@ -542,19 +564,23 @@ a img{
 	float:right;
 }
 
-footer{
-	clear:both;
-	color: #fff;
+footer {
+    clear: both;
+    color: #fff;
+    height: 26px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	text-align: center;
 }
 
 footer a{
 	color: #fff;
 }
 
-footer p{
+footer p {
     margin-bottom: 0px;
     margin-top: 0px;
-    padding-bottom: 10px;
 }
 
 .responsive-menu{
@@ -748,10 +774,15 @@ footer p{
     #contenedor {
     	width: 100%;
 	}
-	footer{
+	footer {
 		position: relative;
 		bottom: 0px;
 		width: 100%;
+		height: auto;
+	}
+	footer p {
+		padding-bottom: 10px;
+		padding-top: 10px;
 	}
 	html {
     	/* height: 1366px;
