@@ -10,11 +10,11 @@
 			<?php if ($cod_idioma==1){?>
 			<h4 class="version">Choose version</h4>
 			<a href="http://q.gs/3029188/snc-game" class="btn-download-2" target="_blank">Original (PC)</a><br>
-			<a href="http://q.gs/3029188/snc-game-mobile" class="btn-download-3" target="_blank">.Pak file (Android)</a>
+			<a href="http://j.gs/3029188/snc-mobile" class="btn-download-3" target="_blank">.Pak file (Android)</a>
 			<?php }else{ ?>
 			<h4 class="version">Elija la versi&oacute;n</h4>
 			<a href="http://q.gs/3029188/snc-juego" class="btn-download-2" target="_blank">Original (PC)</a><br>
-			<a href="http://q.gs/3029188/snc-juego-mobil" class="btn-download-3" target="_blank">Archivo .Pak (Android)</a>
+			<a href="http://j.gs/3029188/snc-mobil" class="btn-download-3" target="_blank">Archivo .Pak (Android)</a>
 			<?php } ?>
 		</div>
 	</div>

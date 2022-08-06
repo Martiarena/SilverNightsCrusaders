@@ -1,6 +1,6 @@
 /* CSS Document */
 header,nav,section,article,aside,footer,figure{
-	display:block;
+	display: block;
 }
 
 html {
@@ -9,7 +9,7 @@ html {
 }
 
 body{
-	background: url("../img/back_fog-action-platformer-openbor-indie-game.png") #000;
+	background: url(../img/back_fog-action-platformer-openbor-indie-game.png) #000;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 14px;
 	padding:0px;
@@ -51,7 +51,7 @@ a {
 }
 
 .back_moon{
-	background: url("../img/moon-action-platformer-openbor-indie-game.png") no-repeat 90% top;
+	background: url(../img/moon-action-platformer-openbor-indie-game.png) no-repeat 90% top;
 	height: 100%;
 }
 
@@ -61,12 +61,12 @@ a {
 }
 
 .sheeba{
-	background: url("../img/sheeba-action-platformer-openbor-indie-game.png") no-repeat right bottom;
+	background: url(../img/sheeba-action-platformer-openbor-indie-game.png) no-repeat right bottom;
 	height: 100%;
 }
 
 .rocks{
-	background: url("../img/rocks-action-platformer-openbor-indie-game.png") no-repeat 110% bottom;
+	background: url(../img/rocks-action-platformer-openbor-indie-game.png) no-repeat 110% bottom;
 	height: 100%;
 }
 
@@ -104,6 +104,7 @@ a {
 }
 
 /* --- PERSONAJES --- */
+
 .name-character {
     font-size: 21px;
     text-align: left;
@@ -159,6 +160,7 @@ a {
 	height:26px;
 	display:inline-block;
 }
+
 .psheeba {
 	background:url(../img/psheeba-faulkner-action-platformer-openbor-indie-game.jpg) no-repeat center;
 }
@@ -221,7 +223,6 @@ a {
 	background:url(../img/evaine-action-platformer-openbor-indie-game.png) right bottom no-repeat;
 }
 
-
 .text-characters {
     float: right;
 }
@@ -248,8 +249,8 @@ a {
 	margin-bottom: 0px;
 }
 
-/*-----*/
 /* --- SUB ARMAS --- */
+
 .sub-armas {
 	margin-top: 20px;
 }
@@ -275,7 +276,7 @@ a {
     border-image: url(../img/border_2_menu-action-platformer-openbor-indie-game.png) 1;
     margin-right: 10px;
 }
-/* --- --- */
+
 /* --- GALLERY --- */
 .titulo-galeria{
 	position: relative;
@@ -331,15 +332,15 @@ a {
 
 .main-menu ul li a {
 	height: 30px;
-	background: url("../img/menu-back-1-action-platformer-openbor-indie-game.png") no-repeat center;
+	background: url(../img/menu-back-1-action-platformer-openbor-indie-game.png) no-repeat center;
 }
 
 .main-menu ul li.activo a {
-	background: url("../img/menu-back-action-platformer-openbor-indie-game.png") no-repeat center;
+	background: url(../img/menu-back-action-platformer-openbor-indie-game.png) no-repeat center;
 }
 
 .main-menu ul li.activo .flame1-a, .main-menu ul li.activo .flame1-b{
-	background: url("../img/flame-1-action-platformer-openbor-indie-game.gif") no-repeat center;
+	background: url(../img/flame-1-action-platformer-openbor-indie-game.gif) no-repeat center;
 	z-index: 99;
 	position: absolute;
 	width: 30px;
@@ -352,7 +353,7 @@ a {
 }
 
 .main-menu ul li:hover .flame1-a, .main-menu ul li:hover .flame1-b{
-	background: url("../img/flame-2-action-platformer-openbor-indie-game.gif") no-repeat center;
+	background: url(../img/flame-2-action-platformer-openbor-indie-game.gif) no-repeat center;
 	z-index: 99;
 	position: absolute;
 	width: 30px;
@@ -417,7 +418,7 @@ a {
 
 .cuadro-texto{
 	border: 14px solid;
-	border-image-source: url("../img/border-action-platformer-openbor-indie-game.png");
+	border-image-source: url(../img/border-action-platformer-openbor-indie-game.png);
 	border-image-slice: 14;
 	border-image-repeat: repeat;
 	padding:10px;
@@ -486,7 +487,6 @@ a {
 .scrollbar{
 	height: 62px;
 	width: 100%;
-/*	background:#000;*/
 	overflow-y: scroll;
 	color: #fff;
 }
@@ -622,7 +622,7 @@ footer p {
 }
 .border-sidebar{
 	border-right: 14px solid;
-	border-image-source: url("../img/border-action-platformer-openbor-indie-game.png");
+	border-image-source: url(../img/border-action-platformer-openbor-indie-game.png);
 	border-image-slice: 14;
 	border-image-repeat: repeat;
     padding-top: 3%;
@@ -655,8 +655,10 @@ footer p {
 
 /* Pop up */
 
-.background-popup{
-	color: white;
+.background-popup {
+    color: white;
+    padding: 1rem;
+    box-sizing: border-box;
 }
 .background-popup h4 {
     margin-top: 0px;
@@ -693,69 +695,6 @@ footer p {
 	font-weight: 700;
 }
 
-/* .line-color-change{
-	background-color: #000020;
-	-webkit-animation: back_color_change 1s infinite alternate;
-	-moz-animation: back_color_change 1s infinite alternate;
-	-ms-animation: back_color_change 1s infinite alternate;
-	-o-animation: back_color_change 1s infinite alternate;
-	animation: back_color_change 1s infinite alternate;
-}
-
-.text-color-change{
-	color: #000020;
-	-webkit-animation: color_change 1s infinite alternate;
-	-moz-animation: color_change 1s infinite alternate;
-	-ms-animation: color_change 1s infinite alternate;
-	-o-animation: color_change 1s infinite alternate;
-	animation: color_change 1s infinite alternate;
-}
-
-@-webkit-keyframes color_change {
-	from { color: #000020; }
-	to { color: #fff; }
-}
-@-moz-keyframes color_change {
-	from { color: #000020; }
-	to { color: #fff; }
-}
-@-ms-keyframes color_change {
-	from { color: #000020; }
-	to { color: #fff; }
-}
-@-o-keyframes color_change {
-	from { color: #000020; }
-	to { color: #fff; }
-}
-@keyframes color_change {
-	from { color: #000020; }
-	to { color: #fff; }
-}
-
-@-webkit-keyframes back_color_change {
-	from { background: #000020; }
-	to { background: #fff; }
-}
-@-moz-keyframes back_color_change {
-	from { background: #000020; }
-	to { background: #fff; }
-}
-@-ms-keyframes back_color_change {
-	from { background: #000020; }
-	to { background: #fff; }
-}
-@-o-keyframes back_color_change {
-	from { background: #000020; }
-	to { background: #fff; }
-}
-@keyframes back_color_change {
-	from { background: #000020; }
-	to { background: #fff; }
-}*/
-
-
-/* ---- */
-
 /******************************************/
 /***    DISEÑO PARA TABLETAS           ****/
 /******************************************/
@@ -781,10 +720,6 @@ footer p {
 	footer p {
 		padding-bottom: 10px;
 		padding-top: 10px;
-	}
-	html {
-    	/* height: 1366px;
-    	position: relative;*/
 	}
 	.interior {
     	float: none;
@@ -816,9 +751,6 @@ footer p {
 	.fancybox-outer, .fancybox-inner {
 	    width: auto !important;
 	}
-	/*.fancybox-type-iframe.fancybox-opened .fancybox-skin {
-    	width: 480px !important;
-    }*/
 	.estatua{
 		display: none;
 	}
