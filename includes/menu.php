@@ -46,8 +46,8 @@
 	<div class="novedades">
 		<div class="scrollbar" id="style-2">
 			<ul>
-			<li><strong><?php if($cod_idioma==1){ echo "Oct 5, 2022"; }else{ echo "5 de Octubre, 2022"; }; ?></strong><br />
-					<?php if($cod_idioma==1){ echo "1.5 version released! Minor bugs solved! :D."; }else{ echo "Versi&oacute;n 1.5 Publicada! Bug menores resueltos :D."; }; ?></li>
+			<li><strong><?php if($cod_idioma==1){ echo "Aug 6, 2022"; }else{ echo "6 de Agosto, 2022"; }; ?></strong><br />
+					<?php if($cod_idioma==1){ echo "1.5 version released! (with Android .pak file) Other bugs solved."; }else{ echo "Ver 1.5 publicada! (y archivo .pak para Android) Otros bug resueltos."; }; ?></li>
 				<li><strong><?php if($cod_idioma==1){ echo "May 1, 2021"; }else{ echo "1 de Mayo, 2021"; }; ?></strong><br />
 					<?php if($cod_idioma==1){ echo "1.3 version released! (with spanish dub) Enjoy! :D."; }else{ echo "Versi&oacute;n 1.3 Publicada! (con Doblaje). Disfrutenla :D."; }; ?></li>
 				<li><strong><?php if($cod_idioma==1){ echo "Apr 25, 2021"; }else{ echo "25 de abril, 2021"; }; ?></strong><br />

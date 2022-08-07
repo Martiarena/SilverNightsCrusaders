@@ -745,6 +745,20 @@ footer p {
 	.sheeba-responsive{
 		height: 500px;
 	}
+
+	footer .cl {
+		clear: both;
+		display: none;
+	}
+	footer p {
+		width: 93%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	footer a {
+		display: block;
+	}
 }
 
 @media only screen and (max-width:668px){

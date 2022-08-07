@@ -2,7 +2,7 @@
 	<div class="sheeba-responsive"></div>
 </div>
 <footer>
-	<p>&copy; True Role Dreams 2020. <?php if($cod_idioma==1){ echo "Some rights reserved";}else{ echo "Algunos derechos reservados";}; ?> x.x. | <a href="#"><?php if($cod_idioma==1){ echo "Credits & Resources";}else{ echo "Créditos y recursos";}; ?></a></p>
+	<p>&copy; True Role Dreams 2020. <?php if($cod_idioma==1){ echo "Some rights reserved";}else{ echo "Algunos derechos reservados";}; ?> x.x. <span class="cl">|</span> <a href="#"><?php if($cod_idioma==1){ echo "Credits & Resources";}else{ echo "Créditos y recursos";}; ?></a></p>
 </footer>
 <script>
 	function openNav() {
