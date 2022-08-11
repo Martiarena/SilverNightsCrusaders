@@ -851,6 +851,12 @@ footer p {
 	.bertha-sprite {
     	background: url(../img/bertha-graymont-action-platformer-openbor-indie-game.png) center 90% no-repeat;
 	}
+	.teobaldo-sprite {
+		background: url(../img/teobaldo-mondragon-action-platformer-openbor-indie-game.png) center 90% no-repeat;
+	}
+	.xavier-sprite {
+		background: url(../img/xavier-action-platformer-openbor-indie-game.png) center 90% no-repeat;
+	}
 	.ficzko-sprite {
     	background: url(../img/ficzko-action-platformer-openbor-indie-game.png) center 88% no-repeat;
 	}
