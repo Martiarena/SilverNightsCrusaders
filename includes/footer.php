@@ -67,16 +67,16 @@
 					<li>Ethan Graymont - Guillermo Arenivar</li>
 					<li>Francis Bloodrose - Fabio Shaggy Rivas</li>
 					<li>Bertha Graymont - Pris Bego</li>
-					<li>Teobaldo Mondrag&oacute;n - Julio L&oacute;pez</li>
+					<li>Teobaldo Mondragon - Julio L&oacute;pez</li>
 					<li>Xavier Bogdan - Martin Mariano M&eacute;ndez</li>
 					<li>Ficzk&oacute; & Storyteller - Ra&uacute;l Mel&eacute;ndez</li>
 					<li>Ana Darvulia - Liliana Robledo</li>
 					<li>Isabel B&aacute;thory de Ecsed - Saii Garcia</li>
 					<li>Evaine Belvoir - Susana Guajardo</li>
-					<li>High Inquisitor - Josu&eacute; Alaniz (Hedo Seto)</li>
+					<li>Grand Inquisitor - Josu&eacute; Alaniz (Hedo Seto)</li>
 					<li>Soldier (Intro scene) - Abelalo Torres</li>
 				</ul>
-				<h5>Direction Spanish Voice Acting</h5>
+				<h5>Spanish Voice Acting Direction</h5>
 				<ul>
 					<li>Guillermo Arenivar</li>
 					<li>Fabio Shaggy Rivas (For Ethan's voice)</li>
@@ -108,7 +108,7 @@
 					<li>Castlevania: Harmony of Despair</li>
 				</ul>
 				<p>* No estoy seguro si es su nombre real.</p>
-				<h5>Algunos gr&aacute;ficos fueron rippeados por:</h5>
+				<h5>Algunos gr&aacute;ficos fueron rippeados por</h5>
 				<ul>
 					<li>Rasgar</li>
 					<li>SmithyGCN</li>
@@ -134,7 +134,7 @@
 					<li>Bloodstained: Ritual of the Night</li>
 					<li>Castlevania (Saga)</li>
 				</ul>
-				<h5>Tema de Cierre:</h5>
+				<h5>Tema de Cierre</h5>
 				<ul>
 					<li>Pictures (por Eyes of Eden)</li>
 				</ul>
