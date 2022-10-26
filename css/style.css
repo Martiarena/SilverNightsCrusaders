@@ -695,6 +695,45 @@ footer p {
 	font-weight: 700;
 }
 
+.text-credits {
+	width: 100%;
+	max-width: 640px;
+	text-align: justify;
+}
+
+.text-credits {
+	margin-top: 0px;
+}
+
+.text-credits ul {
+    padding-left: 1rem;
+}
+
+.text-credits ul li {
+    list-style: circle;
+}
+
+.background-popup h5 {
+    font-size: 1em;
+    font-weight: 700;
+    color: #a07800;
+    background: #a07800;
+    background: -webkit-linear-gradient(top, #a07800, #f8d018, #a07800);
+    background: linear-gradient(top, #a07800, #f8d018, #a07800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text-gold-color {
+	font-weight: 700;
+    color: #a07800;
+    background: #a07800;
+    background: -webkit-linear-gradient(top, #a07800, #f8d018, #a07800);
+    background: linear-gradient(top, #a07800, #f8d018, #a07800);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
 /******************************************/
 /***    DISEÑO PARA TABLETAS           ****/
 /******************************************/

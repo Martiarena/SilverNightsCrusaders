@@ -18,6 +18,7 @@
 			<?php } ?>
 		</div>
 	</div>
+	
 	<?php include("includes/menu-responsive.php"); ?>
 	<div class="back_moon">
 		<div class="back_mountains">

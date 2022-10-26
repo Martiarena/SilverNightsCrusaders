@@ -6,6 +6,8 @@
 *.webp
 *.svg
 .DS_Store
+*.zip
+*.rar
 *.gif
 *.log
 *.txt
