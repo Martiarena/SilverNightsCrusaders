@@ -107,7 +107,7 @@
 					<li>Castlevania: Symphony of the Night</li>
 					<li>Castlevania: Harmony of Despair</li>
 				</ul>
-				<p>* No estoy seguro si es su nombre real.</p>
+				<p><i>* No estoy seguro si es su nombre real.</i></p>
 				<h5>Algunos gr&aacute;ficos fueron rippeados por</h5>
 				<ul>
 					<li>Rasgar</li>
